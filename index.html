@@ -344,21 +344,21 @@ fbq('track', 'PageView', {}, {eventID: '1bf4e211-2fc3-482d-8536-34de45607079'});
         try {
           var data = JSON.parse(xhr3.responseText);
           if (data && (data.deepLink || data.fallbackUrl)) {
-            navTo(data.deepLink, data.fallbackUrl || "https://telegram.me/joinchat/EeRsu8wmxntkZWE1");
+            navTo(data.deepLink, data.fallbackUrl || "https://telegram.me/joinchat/WS91fpLBi_hjNTI1");
             return;
           }
         } catch(ex3) {}
-        navTo("tg://join?invite=EeRsu8wmxntkZWE1", "https://telegram.me/joinchat/EeRsu8wmxntkZWE1");
+        navTo("tg://join?invite=WS91fpLBi_hjNTI1", "https://telegram.me/joinchat/WS91fpLBi_hjNTI1");
       };
       xhr3.onerror = xhr3.ontimeout = function() {
-        navTo("tg://join?invite=EeRsu8wmxntkZWE1", "https://telegram.me/joinchat/EeRsu8wmxntkZWE1");
+        navTo("tg://join?invite=WS91fpLBi_hjNTI1", "https://telegram.me/joinchat/WS91fpLBi_hjNTI1");
       };
       xhr3.send();
       return;
     }
 
     e.preventDefault();
-    navTo("tg://join?invite=EeRsu8wmxntkZWE1", "https://telegram.me/joinchat/EeRsu8wmxntkZWE1");
+    navTo("tg://join?invite=WS91fpLBi_hjNTI1", "https://telegram.me/joinchat/WS91fpLBi_hjNTI1");
   });
 })();
 </script>
